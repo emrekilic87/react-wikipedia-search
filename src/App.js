@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-let url = "http://en.wikipedia.org/w/api.php";
+let url = "https://en.wikipedia.org/w/api.php";
 
 class App extends React.Component {
   constructor(props) {
