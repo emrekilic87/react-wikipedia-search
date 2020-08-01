@@ -1,7 +1,9 @@
 https://react-wikipedia-search.vercel.app/
 
-I used this API for thiis project.
+I used this API for this project.
 https://www.mediawiki.org/wiki/API:Search
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
