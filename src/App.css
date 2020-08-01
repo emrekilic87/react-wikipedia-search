@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.wrapper{margin: 0 auto;text-align: center;margin-top: 5%}
+	.wrapper .title{margin: 0px;font-size: 24px}
+	.wrapper .search{cursor: pointer;display: block;background-color: rgba(128, 128, 128, 0.6);width: 85px;padding: 10px;margin: 15px auto;font-weight: bold;color: #000;}
+	.wrapper .search:hover{background-color: rgba(128, 128, 128, 0.4);}
+	.wrapper .searchTerm{width: 500px;height: 30px;font-size: 18px;text-indent: 10px;border:1px solid #ababab;}
+	.wrapper .searchTerm:focus{outline: 0}
+	.wrapper .output{text-align: left;width: 50%;margin: 0 auto}
+	.wrapper .output .item{margin-bottom: 15px;background-color: #dcdcdc;padding: 10px}
+	
+	@media (max-width: 768px) {
+		.wrapper #searchTerm{width: 90%}
+		.wrapper #output{width: 90%}
+	}
